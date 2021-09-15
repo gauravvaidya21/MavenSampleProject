@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Demo Test Automation Suit]" verbose="0">
+  <test parallel="none" name="My Demo Test(failed)">
+    <classes>
+      <class name="com.test.DemoTest">
+        <methods>
+          <include name="Ndiv"/>
+          <include name="Nsum"/>
+        </methods>
+      </class> <!-- com.test.DemoTest -->
+    </classes>
+  </test> <!-- My Demo Test(failed) -->
+</suite> <!-- Failed suite [Demo Test Automation Suit] -->
